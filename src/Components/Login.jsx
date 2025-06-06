@@ -7,7 +7,7 @@ const Login = () => {
   const [loginData, setLoginData] = useState({ email: '', password: '' });
   const [signupData, setSignupData] = useState({ username: '', email: '', password: '' });
 
-
+  const REACT_APP_BACKEND_URL = process.env.REACT_APP_BACKEND_URL ;
   const handleInputChange = (e, type) => {
     const { name, value } = e.target;
     if (type === 'login') {
