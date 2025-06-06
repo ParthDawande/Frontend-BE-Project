@@ -40,7 +40,7 @@ const AboutUs = () => {
             <img src="/photos/ParthDawande_Photo.jpg" alt="Team Member 2" className="team-photo" />
             <h3>Parth Dawande</h3>
             <p>Web Developer</p>
-            <p>Curabitur sit amet justo at ipsum maximus vestibulum a in lectus. Sed malesuada orci vitae malesuada ultrices.</p>
+            <p>I am Parth Dawande from PICT</p>
           </div>
 
           <div className="card">
