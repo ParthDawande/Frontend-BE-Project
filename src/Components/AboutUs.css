@@ -1,12 +1,13 @@
 .about-us-content {
-    top: 0;
-    margin-top: 0px;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
     padding: 80px 20px;
     text-align: center;
 }
 
 .about-us-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #2e7d32;
     margin-bottom: 40px;
 }
@@ -15,18 +16,20 @@
 .team-cards-container {
     width: 85%;
     margin: 0 auto;
+    
 }
 
 .team-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     margin-top: 30px;
 }
 
 .card {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #f0f9f4;
     width: 23%;
     padding: 20px;
     border-radius: 12px;
@@ -70,4 +73,40 @@
     .card {
         width: 90%;
     }
+}
+
+.nav-logo {
+  height: 52px;
+  width: 52px;         /* Make it square */
+  object-fit: cover;   /* Ensures image fits inside the circle */
+  border-radius: 50%;  /* Makes it circular */
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background-color: #e4e7e5;
+  color: rgb(100, 99, 99);
+  padding: 20px 10px;
+  text-align: center;
+  margin-top: 0px;
+  /* border-top: 2px solid #3f6442; */
+  box-shadow: 0 -4px 10px rgba(164, 164, 164, 0.1);
+  
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+}
+
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 1rem;
 }
