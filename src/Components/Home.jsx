@@ -181,7 +181,7 @@ const Home = ({ setIsLoggedIn }) => {
         <h2>Tutorial</h2>
         <div className="video-container">
           <iframe
-            src="https://www.youtube.com/embed/fHuwydryeKI"
+            src="https://www.youtube.com/embed/KbM9eFi9yMU"
             title="Tutorial Video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
